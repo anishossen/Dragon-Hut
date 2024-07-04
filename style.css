@@ -10,7 +10,7 @@
     height: 100vh;
 }
 .navbar{
-    width: 85%;
+    width: 90%;
     height: 75px;
     margin: auto;
 }
@@ -52,7 +52,7 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-    color: #ff7274;
+    color: #e502fa;
 }
 .search-bar{
      width: 230px;
@@ -93,7 +93,7 @@ ul li a:hover{
     outline: none;
 }
 .content{
-    width: 85%;
+    width: 90%;
     height: auto;
     margin: auto;
     color: #fffafa;
@@ -218,4 +218,33 @@ ul li a:hover{
     margin-left: 5px;
     font-size: 15px;
     color: #fffafa;
+}
+.liw{
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+/* icon items  */
+
+.social-icon{
+    margin-top: 10px;
+}
+.social-icon ul{
+    margin-left: 20px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: #fffafa;
+}
+.social-icon i{
+    color: #fdbbbb;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    align-items: center;
+    transition: 0.4s ease;
+}
+.social-icon i:hover{
+    color: aqua;
 }
